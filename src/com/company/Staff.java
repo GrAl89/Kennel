@@ -145,7 +145,7 @@ public class Staff {
             for (int i = 0; i < arrayOfAviary.length; i++) {
                 if (arrayOfAviary[i].isAviaryIsClean() == false) {
                     arrayOfAviary[i].setAviaryIsClean(true);
-                    System.out.println("\n" + arrayOfStaff[3].staffSpecialty + " " + arrayOfStaff[3].staffName + " cleaned the aviary №  " + arrayOfAviary[i].getAviaryId() + ". Aviary № " + "\n" + arrayOfAviary[i].getAviaryId() + " is clean now.");
+                    System.out.println("\n" + arrayOfStaff[3].staffSpecialty + " " + arrayOfStaff[3].staffName + " cleaned the aviary №  " + arrayOfAviary[i].getAviaryId() + ". " + "\n" + "Aviary № " + arrayOfAviary[i].getAviaryId() + " is clean now.");
                 } else {
                     System.out.println("\n" + "Aviary № " + arrayOfAviary[i].getAviaryId() + " has already cleaned.");
                 }
@@ -156,7 +156,7 @@ public class Staff {
         for (int i = 0; i < arrayOfAviary.length; i++) {
             if (arrayOfAviary[i].isAviaryIsBroken() == true) {
                 arrayOfAviary[i].setAviaryIsClean(false);
-                System.out.println("\n" + arrayOfStaff[4].staffSpecialty + " " + arrayOfStaff[4].staffName + " fixed the aviary №  " + arrayOfAviary[i].getAviaryId() + ". Aviary № " + "\n" + arrayOfAviary[i].getAviaryId() + " is now of high quality.");
+                System.out.println("\n" + arrayOfStaff[4].staffSpecialty + " " + arrayOfStaff[4].staffName + " fixed the aviary №  " + arrayOfAviary[i].getAviaryId() + ". " + "\n" + "Aviary № " + arrayOfAviary[i].getAviaryId() + " is now of high quality.");
             } else {
                 System.out.println("\n" + "Aviary № " + arrayOfAviary[i].getAviaryId() + " has already fixed.");
             }
